@@ -104,20 +104,22 @@ setToken(loginToken);
           <div className={styles.navigation}>
             <ul>
               <Link href="/">
-                <li>Home</li>
+                <li className={router.pathname == "/" ? "navActive" : ""}>
+           Home
+        </li>
               </Link>
               <Link href="/home-grooming">
-              <li>Grooming</li>
+              <li className={router.pathname == "/home-grooming" ? "navActive" : ""}>Grooming</li>
               </Link>
               <Link href="/pet-vaccination">
-              <li>Vaccination</li>
+              <li className={router.pathname == "/pet-vaccination" ? "navActive" : ""}>Vaccination</li>
               </Link>
               <Link href="/vet-consult">
-                <li>Consult a vet</li>
+                <li className={router.pathname == "/vet-consult" ? "navActive" : ""}>Consult a vet</li>
               </Link>
               
               <Link href="/blog">
-                <li>Blog</li>
+                <li className={router.pathname == "/blog" ? "navActive" : ""}>Blog</li>
               </Link>
             </ul>
           </div>

@@ -9,10 +9,11 @@ import Playstore from "../public/android.png";
 import Appstore from "../public/apple.png";
 
 const Layout = ({ children }) => {
-  const [screen, setScreen] = useState("");
+ 
+  const [screen, setScreen] = useState("963");
   const screenWidth = () => {
     if (typeof window !== "undefined") {
-      let screensize = window.innerWidth;
+      let screensize = window.innerWidth ;
       return screensize;
     }
   };
@@ -20,7 +21,7 @@ const Layout = ({ children }) => {
   useEffect(() => {
     screenWidth();
     setScreen(window.innerWidth);
-  }, [setScreen]);
+  });
 
   return (
     <>

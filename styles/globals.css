@@ -5,7 +5,11 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+.navActive{
+  color:rgb(102 5 202 / 99%);
+ font-size: 20px !important;
+ 
+}
 a {
   color: inherit;
   text-decoration: none;

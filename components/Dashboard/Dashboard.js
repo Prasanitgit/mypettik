@@ -17,7 +17,6 @@ const Dashboard = () => {
   let phoneValue;
   if (typeof window !== "undefined") {
     phoneValue = localStorage.getItem("phoneNumber") ?? "-";
-    console.log("phonevalhelloe", phoneValue);
   }
 
   const [userData, setUserData] = useState({});

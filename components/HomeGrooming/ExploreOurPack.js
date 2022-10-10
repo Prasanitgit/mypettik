@@ -3,15 +3,15 @@ import styles from "./HomeGrooming.module.scss";
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 
 const ExploreOurPack = (item) => {
-//  console.log("ImgData",item);
+ //console.log("ImgDatafirst",item);
  const data=item?.item;
-//  console.log("ImgData",item?.item);
+ 
   return (
     <div>
   
      <div className={styles.tabContent}>
         <div className={styles.tabContentDetails}>
-        {console.log(data?.service_web_icon)}
+        {/* {console.log(data?.service_web_icon)} */}
           <div className={styles.image}>
           
             <Image
