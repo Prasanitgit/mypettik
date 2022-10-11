@@ -47,8 +47,13 @@ const Layout = ({ children }) => {
           <div className="pettikSubHeading">Sorry for the inconvience, we are only available in desktop version OR please download our app</div>
           <div className="playstoreImage"> <Image src={Playstore} width="180" height="50" priority /></div>
   <div className="playstoreImage"> <Image src={Appstore} width="180" height="50" priority /></div>
+  <Link href="https://pettik.surveysparrow.com/s/Online-Partner-Registration-Form/tt-bf79e7d34f?">
+  <div className="partner">
+  BECOME A PARTNER</div>
+  </Link>
   <div className="pettikContactus">
   CONTACT US</div>
+  
   </div>
           </div>
         )}

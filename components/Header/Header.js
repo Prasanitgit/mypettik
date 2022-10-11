@@ -104,22 +104,22 @@ setToken(loginToken);
           <div className={styles.navigation}>
             <ul>
               <Link href="/">
-                <li className={router.pathname == "/" ? "navActive" : ""}>
-           Home
-        </li>
+                <li className={router.pathname == "/" ? "navActive" : ""}>HOME</li>
               </Link>
               <Link href="/home-grooming">
-              <li className={router.pathname == "/home-grooming" ? "navActive" : ""}>Grooming</li>
+              <li className={router.pathname == "/home-grooming" ? "navActive" : ""}>GROOMING</li>
               </Link>
               <Link href="/pet-vaccination">
-              <li className={router.pathname == "/pet-vaccination" ? "navActive" : ""}>Vaccination</li>
+              <li className={router.pathname == "/pet-vaccination" ? "navActive" : ""}>VACCINATION</li>
               </Link>
               <Link href="/vet-consult">
-                <li className={router.pathname == "/vet-consult" ? "navActive" : ""}>Consult a vet</li>
+                <li className={router.pathname == "/vet-consult" ? "navActive" : ""}>CONSULT A VET</li>
               </Link>
-              
               <Link href="/blog">
-                <li className={router.pathname == "/blog" ? "navActive" : ""}>Blog</li>
+                <li className={router.pathname == "/blog" ? "navActive" : ""}>BLOG</li>
+              </Link>
+              <Link href="https://pettik.surveysparrow.com/s/Online-Partner-Registration-Form/tt-bf79e7d34f?">
+                <li className={styles.partner}>BECOME A PARTNER</li>
               </Link>
             </ul>
           </div>
